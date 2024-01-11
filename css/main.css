@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.header__top {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    color: #939CAA;
+}
+
+.header-ul__link {
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.header__list {
+    margin-left: 58px;
+    column-gap: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header__logo {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.header-link__a:hover {
+    transition: .5s;
+    background: white;
+    color: #FCB72B;
+}
+
+.header-link__a {
+    border: 3px solid #FCB72B;
+    background: #FCB72B;
+    padding: 14px 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    border: 3px solid #FCB72B;
+}
+
+.header__ractangle {
+
+    width: 100%;
+    height: 100vh;
+    background: url('../img/Bitmap\(1\).png')no-repeat center bottom /cover;
+}
+
+.header__color {
+    padding: 153px 0 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(3, 12, 56, 0.5);
+}
+
+.header__h1 {
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+
+.header__link:hover {
+    border: 3px solid #FCB72B;
+    background: white;
+    color: #FCB72B;
+}
+
+.text {
+    color: #FFF;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.link:hover {
+    color: #FCB72B;
+    transition: .5s;
+}
+
+.header___link:hover {
+    transition: .5s;
+    background: none;
+    color: #FCB72B;
+}
+
+.header___link {
+    border: 3px solid #FCB72B;
+    background: #FCB72B;
+    padding: 14px 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.header__text {
+    margin-left: 95px;
+}
+
+.header__grup {
+    margin-top: 160px;
+    column-gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grub__h1 {
+    margin-bottom: 27px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+.grub__p {
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.grub__img {
+    margin-bottom: 40px;
+}
+
+.text__h1 {
+    margin-bottom: 24px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.text__p {
+    margin-bottom: 40px;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.text__a:hover {
+    color: #FCB72B;
+    background: white;
+    transition: .5s;
+}
+
+.text__a {
+    border: 3px solid #FCB72B;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    background: #FCB72B;
+    padding: 14px 43px;
+}
+
+.header__img {
+    border-radius: 50%;
+}
+
+.header_bitmap_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__bitmap {
+    margin-top: 200px;
+}
+
+.header__bitmap_2 {
+    margin-top: 160px;
+}
+
+.masck-text-logo {
+    padding: 51px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-masck-link {
+    display: flex;
+    column-gap: 18px;
+}
+
+.header__masck {
+    width: 100%;
+    background: #495567;
+}
+
+.masck-text {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.appal-p {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: -0.446px;
+}
+
+.appal-h1 {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.893px;
+}
+
+.masck-appal-link {
+    column-gap: 10px;
+    border-radius: 4px;
+    background: #E5ECF4;
+    padding: 8px 15px;
+    display: flex;
+}
+
+.header-finish {
+    width: 100%;
+    background: #333A44;
+}
+
+.footer__logo {
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.footer-ul {
+    display: flex;
+    column-gap: 32px;
+}
+
+.footer-link:hover {
+    color: #FCB72B;
+    transition: .5s;
+}
+
+.footer-link {
+    color: #939CAA;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.logo__brand:hover {
+    color: white;
+    transition: .5s;
+}
+
+.logo__brand {
+    color: #FCB72B;
+    margin-right: 30px;
+}
+
+.apple-brand {
+    margin: auto;
+    color: #495567;
+}
+
+.img__h1 {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+
+.head-h1 {
+    width: 100%;
+}
+
+.header__image {
+    width: 100%;
+    padding: 100px 0 100px 167px;
+    background: url('../img/Bitmap.png')no-repeat center center /cover;
+}
+
+.header_Our {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-our {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1 {
+    border-radius: 50%;
+}
+
+.header_1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_text1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.head-num1 {
+    margin-top: -50%;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+    padding: 34px;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #FCB72B;
+}
+
+.Our_h1 {
+    margin-bottom: 75px;
+    margin-top: 88px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+
+.text_h1 {
+    margin-top: 32px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
+
+.text1 {
+    margin-top: 27px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.header-faqs{
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.Faqs-works{
+    justify-content: space-between;
+    display: flex;
+}
+.Faqs-text{
+    padding: 16px 40px;
+    background: #F2F5F9;
+}
+.Faqs-icon{
+    margin-top: 16px;
+    padding: 16px 40px;
+    background: #F2F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Faqs-p{
+    color: #495567;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px; 
+    margin-top: 24px;
+}
+.fa-solid{
+    color: #FCB72B;
+}
+.Faqs{
+    margin-bottom: 64px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+}
+.Works-h1{
+    margin-right: 100px;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.786px;
+}
+.iconh1{
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+}
